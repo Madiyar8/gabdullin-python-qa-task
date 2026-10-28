@@ -1,7 +1,8 @@
 # QA Automation test task (Python)
 
-A console program that solves the test task: three small algorithms and a
-bracket sequence checker. Everything is run from one interactive menu.
+A console program that solves the algorithm part of the test task. Everything
+is run from one interactive menu. The answers to the bracket sequence questions
+are written below (Part 2).
 
 ## Requirements
 
@@ -24,7 +25,6 @@ Then choose an option in the menu and enter the values in the console.
 | 2 | Name check | `John` | `Hello, John` |
 | 2 | Name check | `Anna` | `There is no such name` |
 | 3 | Multiples of 3 | `1 3 4 6 9 10` | `Multiples of 3: [3, 6, 9]` |
-| 4 | Bracket sequence | (Enter for the sequence from the task) | `... -> NOT correct` |
 
 Notes:
 - The name comparison is case-sensitive: `john` does not match `John`.
@@ -75,5 +75,3 @@ Now there are two `[` for the two `]`, and the round brackets are balanced
 
 Both results are correct bracket sequences. (Other fixes with more than one
 change also exist, for example deleting the first `(` and the last `]`.)
-
-You can check any of these sequences with menu option 4.
